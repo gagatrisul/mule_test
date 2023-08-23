@@ -1,9 +1,9 @@
 name: Build and Deploy to Sandbox
 on:
   push:
-    branches: [ main ]
+    branches: [ develop ]
   pull_request:
-    branches: [ main ]   
+    branches: [ develop ]   
 jobs:
   sonar:
     name: SonarQube
