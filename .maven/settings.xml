@@ -21,8 +21,8 @@
         <activeByDefault>true</activeByDefault>
       </activation>
       <properties>
-      	<sonar.host.url>https://sonarcloud.io:443</sonar.host.url>
-	      <sonar.login>token Create in step #2</sonar.login>
+      	<sonar.host.url>http://192.168.29.103/</sonar.host.url>
+	      <sonar.login> sqp_b44fe252e996db490edfbfd39cbe2302a0bf9126 </sonar.login>
       </properties>
       <repositories>
         <repository>
