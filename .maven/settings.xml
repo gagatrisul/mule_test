@@ -3,6 +3,7 @@
 
   <pluginGroups>
     <pluginGroup>org.mule.tools</pluginGroup>
+	  <pluginGroup>org.sonarsource.scanner.maven</pluginGroup>
   </pluginGroups>
 
   <servers>
@@ -19,6 +20,10 @@
       <activation>
         <activeByDefault>true</activeByDefault>
       </activation>
+      <properties>
+      	<sonar.host.url>https://sonarcloud.io:443</sonar.host.url>
+	      <sonar.login>token Create in step #2</sonar.login>
+      </properties>
       <repositories>
         <repository>
           <id>MuleRepository</id>
